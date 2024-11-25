@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "ba4d7bf4-1664-43f3-ad1a-f465124247af",
+		"name": "hw_11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39983423"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3303/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3303/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3303",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3303/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3303/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3303",
+					"path": [
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3303/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Product Three\",\r\n    \"price\": 99.90\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3303/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3303",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
