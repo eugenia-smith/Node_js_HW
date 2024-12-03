@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Homework Chat</title>
+  </head>
+  <body>
+    <h1>Homework chat</h1>
+    <section class="container">
+      <form class="chat_form" action="" method="post">
+        <input type="text" name="chat_input" id="" />
+        <button type="submit">Send</button>
+      </form>
+      <div class="chat_window">
+        <h4>Here is what you've said</h4>
+        <ul class="messages"></ul>
+      </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
